@@ -7,8 +7,14 @@
 //
 
 #import "AlbumBaseViewController.h"
+#import "AlbumRepository.h"
 
-@interface AlbumBaseViewController ()
+@interface AlbumBaseViewController () {
+    NSUInteger _index;
+    AlbumRepository *_repo;
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *currentImage;
 
 @end
 
@@ -17,6 +23,9 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    _repo = [AlbumRepository createRepository];
+    _index = 0;
+    [self.currentImage setImage:[_repo imageForAlbumAt:_index]];
 }
 
 -(void)didReceiveMemoryWarning

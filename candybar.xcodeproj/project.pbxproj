@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0200AA18A2EFDD00148D51 /* AlbumRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0200A918A2EFDD00148D51 /* AlbumRepository.m */; };
 		2C8B4B491893746E00E07339 /* AlbumBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B4B481893746E00E07339 /* AlbumBaseViewController.m */; };
 		2C8B4B4C189374F700E07339 /* AlbumLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B4B4B189374F700E07339 /* AlbumLandscapeViewController.m */; };
 		2CA56C82189360A200F497BD /* TrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA56C81189360A200F497BD /* TrackCell.m */; };
@@ -26,6 +27,8 @@
 		2CE951C5188F8C76004F3A43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CE951C3188F8C76004F3A43 /* InfoPlist.strings */; };
 		2CE951C7188F8C76004F3A43 /* candybarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE951C6188F8C76004F3A43 /* candybarTests.m */; };
 		2CE951D1188F8E11004F3A43 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE951D0188F8E11004F3A43 /* image.png */; };
+		D1E9BFA28A9347918CFCDFBA /* libPods-candybarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A1BE3C5FC945EC91855C6B /* libPods-candybarTests.a */; };
+		F413AF45B6D64ACC99CE1E4E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D9C38EB71348A698DD6AF4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23A1BE3C5FC945EC91855C6B /* libPods-candybarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-candybarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0200A818A2EFDD00148D51 /* AlbumRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumRepository.h; sourceTree = "<group>"; };
+		2C0200A918A2EFDD00148D51 /* AlbumRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumRepository.m; sourceTree = "<group>"; };
 		2C8B4B471893746E00E07339 /* AlbumBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumBaseViewController.h; sourceTree = "<group>"; };
 		2C8B4B481893746E00E07339 /* AlbumBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumBaseViewController.m; sourceTree = "<group>"; };
 		2C8B4B4A189374F700E07339 /* AlbumLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumLandscapeViewController.h; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 		2CE951C4188F8C76004F3A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CE951C6188F8C76004F3A43 /* candybarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = candybarTests.m; sourceTree = "<group>"; };
 		2CE951D0188F8E11004F3A43 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		53D9C38EB71348A698DD6AF4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CAE0E1EF9F4325AAFE8C92 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9EE6570343354D03BFF5B27E /* Pods-candybarTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-candybarTests.xcconfig"; path = "Pods/Pods-candybarTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,7 @@
 				2CE9519E188F8C75004F3A43 /* CoreGraphics.framework in Frameworks */,
 				2CE951A0188F8C76004F3A43 /* UIKit.framework in Frameworks */,
 				2CE9519C188F8C75004F3A43 /* Foundation.framework in Frameworks */,
+				F413AF45B6D64ACC99CE1E4E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +97,31 @@
 				2CE951BB188F8C76004F3A43 /* XCTest.framework in Frameworks */,
 				2CE951BD188F8C76004F3A43 /* UIKit.framework in Frameworks */,
 				2CE951BC188F8C76004F3A43 /* Foundation.framework in Frameworks */,
+				D1E9BFA28A9347918CFCDFBA /* libPods-candybarTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0200AB18A3310400148D51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C0200A818A2EFDD00148D51 /* AlbumRepository.h */,
+				2C0200A918A2EFDD00148D51 /* AlbumRepository.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2C0200AC18A3311D00148D51 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CA56C80189360A200F497BD /* TrackCell.h */,
+				2CA56C81189360A200F497BD /* TrackCell.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
 		2CE9518F188F8C75004F3A43 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +129,8 @@
 				2CE951C0188F8C76004F3A43 /* candybarTests */,
 				2CE9519A188F8C75004F3A43 /* Frameworks */,
 				2CE95199188F8C75004F3A43 /* Products */,
+				83CAE0E1EF9F4325AAFE8C92 /* Pods.xcconfig */,
+				9EE6570343354D03BFF5B27E /* Pods-candybarTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +150,8 @@
 				2CE9519D188F8C75004F3A43 /* CoreGraphics.framework */,
 				2CE9519F188F8C75004F3A43 /* UIKit.framework */,
 				2CE951BA188F8C76004F3A43 /* XCTest.framework */,
+				53D9C38EB71348A698DD6AF4 /* libPods.a */,
+				23A1BE3C5FC945EC91855C6B /* libPods-candybarTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,21 +159,14 @@
 		2CE951A1188F8C76004F3A43 /* candybar */ = {
 			isa = PBXGroup;
 			children = (
+				2C0200AC18A3311D00148D51 /* Custom Views */,
+				2C0200AB18A3310400148D51 /* Models */,
 				2CE951AA188F8C76004F3A43 /* AppDelegate.h */,
 				2CE951AB188F8C76004F3A43 /* AppDelegate.m */,
 				2CE951AD188F8C76004F3A43 /* Main.storyboard */,
-				2C8B4B471893746E00E07339 /* AlbumBaseViewController.h */,
-				2C8B4B481893746E00E07339 /* AlbumBaseViewController.m */,
-				2CE951B0188F8C76004F3A43 /* AlbumPortraitViewController.h */,
-				2CE951B1188F8C76004F3A43 /* AlbumPortraitViewController.m */,
-				2C8B4B4A189374F700E07339 /* AlbumLandscapeViewController.h */,
-				2C8B4B4B189374F700E07339 /* AlbumLandscapeViewController.m */,
+				2CF674CF18BC16F0003BFE72 /* Album View (Single) */,
 				2CE951B3188F8C76004F3A43 /* Images.xcassets */,
 				2CE951A2188F8C76004F3A43 /* Supporting Files */,
-				2CA56C80189360A200F497BD /* TrackCell.h */,
-				2CA56C81189360A200F497BD /* TrackCell.m */,
-				2CA56C831893618200F497BD /* TrackListViewController.h */,
-				2CA56C841893618200F497BD /* TrackListViewController.m */,
 			);
 			path = candybar;
 			sourceTree = "<group>";
@@ -175,6 +201,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2CF674CF18BC16F0003BFE72 /* Album View (Single) */ = {
+			isa = PBXGroup;
+			children = (
+				2C8B4B471893746E00E07339 /* AlbumBaseViewController.h */,
+				2C8B4B481893746E00E07339 /* AlbumBaseViewController.m */,
+				2CE951B0188F8C76004F3A43 /* AlbumPortraitViewController.h */,
+				2CE951B1188F8C76004F3A43 /* AlbumPortraitViewController.m */,
+				2C8B4B4A189374F700E07339 /* AlbumLandscapeViewController.h */,
+				2C8B4B4B189374F700E07339 /* AlbumLandscapeViewController.m */,
+				2CA56C831893618200F497BD /* TrackListViewController.h */,
+				2CA56C841893618200F497BD /* TrackListViewController.m */,
+			);
+			name = "Album View (Single)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CE951CA188F8C76004F3A43 /* Build configuration list for PBXNativeTarget "candybar" */;
 			buildPhases = (
+				95B83949370F4054BD48E307 /* Check Pods Manifest.lock */,
 				2CE95194188F8C75004F3A43 /* Sources */,
 				2CE95195188F8C75004F3A43 /* Frameworks */,
 				2CE95196188F8C75004F3A43 /* Resources */,
+				F027CF4BC8CB49D6AF304FF6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CE951CD188F8C76004F3A43 /* Build configuration list for PBXNativeTarget "candybarTests" */;
 			buildPhases = (
+				45B829E162DC4E7FB5EE52F8 /* Check Pods Manifest.lock */,
 				2CE951B5188F8C76004F3A43 /* Sources */,
 				2CE951B6188F8C76004F3A43 /* Frameworks */,
 				2CE951B7188F8C76004F3A43 /* Resources */,
+				15E44BFC2F9E47CD90B26357 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +313,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15E44BFC2F9E47CD90B26357 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-candybarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B829E162DC4E7FB5EE52F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95B83949370F4054BD48E307 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F027CF4BC8CB49D6AF304FF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CE95194188F8C75004F3A43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +386,7 @@
 				2CE951AC188F8C76004F3A43 /* AppDelegate.m in Sources */,
 				2CE951A8188F8C76004F3A43 /* main.m in Sources */,
 				2C8B4B4C189374F700E07339 /* AlbumLandscapeViewController.m in Sources */,
+				2C0200AA18A2EFDD00148D51 /* AlbumRepository.m in Sources */,
 				2CA56C82189360A200F497BD /* TrackCell.m in Sources */,
 				2C8B4B491893746E00E07339 /* AlbumBaseViewController.m in Sources */,
 			);
@@ -403,6 +512,7 @@
 		};
 		2CE951CB188F8C76004F3A43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CAE0E1EF9F4325AAFE8C92 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -416,6 +526,7 @@
 		};
 		2CE951CC188F8C76004F3A43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CAE0E1EF9F4325AAFE8C92 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -429,6 +540,7 @@
 		};
 		2CE951CE188F8C76004F3A43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE6570343354D03BFF5B27E /* Pods-candybarTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/candybar.app/candybar";
@@ -452,6 +564,7 @@
 		};
 		2CE951CF188F8C76004F3A43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE6570343354D03BFF5B27E /* Pods-candybarTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/candybar.app/candybar";

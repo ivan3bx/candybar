@@ -1,0 +1,13 @@
+PODS:
+  - iCarousel (1.7.6)
+  - OCMock (2.2.2)
+
+DEPENDENCIES:
+  - iCarousel (~> 1.7.6)
+  - OCMock (~> 2.2.2)
+
+SPEC CHECKSUMS:
+  iCarousel: e23a26d7ba722215a42144e80adb0dcb59bebc41
+  OCMock: ffba68873fd32cfd35d885bddad23bfa816da4a3
+
+COCOAPODS: 0.28.0
